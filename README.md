@@ -16,7 +16,7 @@ Aunque Hydra es muy potente, hay situaciones específicas donde este script de P
 *  **Análisis de respuestas complejas:** Si el servidor no solo cambia el texto, sino que cambia un código en el HTML o una Cookie, con Python puedes capturar ese detalle exacto, algo que con Hydra es mucho más difícil de configurar.
 
 
-### Comando a utilizar
+## Comando a utilizar
 ```bash
 python3 enumerator.py http://IP o dominio objetivo/login.php usernames.txt
 ```
@@ -47,7 +47,7 @@ python3 enumerator.py http://IP o dominio objetivo/login.php usernames.txt
 Espero que os sirva como a mi me ha servido!
 Feliz Hacking.
 
-## Script
+# Script
 ```python
 #!/usr/bin/env python3
 import requests
